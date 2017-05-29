@@ -1,0 +1,178 @@
+/* ------------------------------------------------- */
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 100%;
+	}
+	/*
+	#sidebar {
+		width: 30%;
+	}
+	*/
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	/*
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+	*/	
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	
+	.container
+	{
+		overflow:visible;
+	}
+
+	#header {
+		height: auto;
+		overflow:visible;
+		width:auto;
+	}
+	
+	#header-menu
+	{
+		width:auto; margin-top:20px; float:none;
+	}
+	
+	#content
+	{
+		width:auto; margin:0 auto; padding:5px;
+	}
+	
+	#hp1
+	{	
+		width:270px; height:300px; padding:15px; float:none; margin:0 auto; text-align:center;
+	}
+	
+	#eventdiv
+	{
+		width:auto; height:auto; float:left; margin:20px; border:1px solid #ccc; padding:5px;
+	}
+	
+	h1 {
+		font-size: 24px;
+	}
+	
+	#logo
+	{
+		width:auto;
+		float:none;
+	}
+	#header-banner
+	{
+		width:auto;
+		float:none;
+		margin-top:15px;
+	}
+	
+	#navigation
+	{
+		width:auto;
+	}
+	
+	#slider
+	{
+		width:auto;
+	}
+	
+	#placement
+	{
+		float:none; 
+		width:auto; 
+	}
+	
+	#footer-bar
+	{
+		float:none; 
+		width:auto; 
+	}
+	
+	#footer-bar-div {
+		color:#fff; 
+		width:auto; 
+		float:none;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	
+	#footer-bar-div1 {
+		width:auto; 
+		float:none; 
+		color:#fff;
+		text-align:center;
+		margin-bottom:10px;
+	}
+	
+#homepage-div1
+{
+width:auto;
+}
+
+#homepage-div1-left
+{
+background:#fff; 
+overflow:auto; 
+width:auto; 
+float:none;
+}
+
+#homepage-div1-left-left
+{
+width:auto; 
+margin-right:0%; 
+float:none; 
+background:#fff;
+}
+
+#homepage-div1-left-right
+{
+width:auto; 
+margin-right:0%; 
+float:none; 
+background:#fff;
+}
+
+#homepage-div1-right
+{
+padding:20px 0px;
+width:auto; float:none;
+text-align:center;
+}
+
+#homepage-div2
+{
+width:auto; 
+margin:0 auto;
+}
+
+#homepage-div2-type1
+{
+width:auto; margin-right:0%; float:none;
+}
+#homepage-div2-type2
+{
+width:auto; float:none;
+}
+	
+}
